@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{539DD9A6-3F81-9AFC-A8E1-944F94E4847E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EgorsActivityMonitorGUI", "EgorsActivityMonitorGUI\EgorsActivityMonitorGUI\EgorsActivityMonitorGUI.vcxproj", "{BF4CF284-2B84-3A1C-348E-9E3FA0446115}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EgorsActivityMonitor", "EgorsActivityMonitor\EgorsActivityMonitor\EgorsActivityMonitor.vcxproj", "{BA355B21-A6C4-E4EA-4FE3-F8E53B51F590}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF4CF284-2B84-3A1C-348E-9E3FA0446115}.Debug|x64.ActiveCfg = Debug|x64
+		{BF4CF284-2B84-3A1C-348E-9E3FA0446115}.Debug|x64.Build.0 = Debug|x64
+		{BF4CF284-2B84-3A1C-348E-9E3FA0446115}.Release|x64.ActiveCfg = Release|x64
+		{BF4CF284-2B84-3A1C-348E-9E3FA0446115}.Release|x64.Build.0 = Release|x64
+		{BA355B21-A6C4-E4EA-4FE3-F8E53B51F590}.Debug|x64.ActiveCfg = Debug|x64
+		{BA355B21-A6C4-E4EA-4FE3-F8E53B51F590}.Debug|x64.Build.0 = Debug|x64
+		{BA355B21-A6C4-E4EA-4FE3-F8E53B51F590}.Release|x64.ActiveCfg = Release|x64
+		{BA355B21-A6C4-E4EA-4FE3-F8E53B51F590}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF4CF284-2B84-3A1C-348E-9E3FA0446115} = {539DD9A6-3F81-9AFC-A8E1-944F94E4847E}
+		{BA355B21-A6C4-E4EA-4FE3-F8E53B51F590} = {539DD9A6-3F81-9AFC-A8E1-944F94E4847E}
+	EndGlobalSection
+EndGlobal
